@@ -6,7 +6,7 @@ class penjualan
 	public $con;
 	function __construct()
 	{
-		$this->con=new mysqli("localhost","root","","imk");
+		$this->con=new mysqli("localhost","root","harry","imk");
 	}
 	function __destruct()
 	{
